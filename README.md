@@ -1,6 +1,6 @@
 # portfolio-sass
 
-## let's take a look at Page : [Portfolio Page](https://mani8217.github.io/portfilio/)
+## let's take a look at Page : [Portfolio Page](https://mani8217.github.io/portfolio-sass/)
 
 <p align="center">
 <img src="https://i.ibb.co/FnfpCPz/Screenshot-2023-01-22-at-23-39-11.png" width="400">
