@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-image: linear-gradient(to left, #23575B, #C4C57B);
+  color: white;
+  box-shadow: 0 2px 0 rgba(78, 140, 125, 0.4);
+  max-width: 100%;
+}
+
+footer {
+  background-color: #303841;
+  height: 300px;
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+  max-width: 100%;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
+  height: 70px;
+}
+
+.header-logo a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.header-logo a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 28px;
+  display: block;
+}
+
+header nav {
+  display: none;
+  text-align: center;
+  border-top: 1px solid #23575b;
+  background-color: black;
+  padding: 10px;
+  list-style: none;
+}
+
+.header-nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+main .introduction {
+  background-color: #f1f1f1;
+  box-shadow: 0 2px 0 rgba(78, 140, 125, 0.4);
+  color: black;
+  text-align: center;
+  height: 400px;
+  padding: 100px;
+  font-family: "Sofia", sans-serif;
+}
+
+.projects-container {
+  background-color: #23575B;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-container h3 {
+  color: white;
+  text-align: center;
+  padding: 4px;
+  font-family: "Advent Pro";
+}
+
+.projects-container .more-btn {
+  color: white;
+  display: block;
+  background-color: #303841;
+  width: 150px;
+  margin: 10px auto;
+  text-align: center;
+  text-decoration: none;
+  padding: 8px 12px;
+}
+
+.projects-container .more-btn:hover {
+  background-color: #C4C57B;
+}
+
+.card {
+  margin: 15px auto;
+}
+
+.card .btn {
+  background-color: #BE3143 !important;
+  color: white;
+}
+
+.projects-container .more-btn:hover > i {
+  transform: translateX(2px);
+}
+
+.footer-nav {
+  width: 300px;
+  display: flex;
+  list-style: none;
+  margin: 8px auto;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+footer #footer-paraf {
+  margin-top: 40px;
+  padding: 8px;
+  background-color: #303841;
+}
+
+.introduction h2 {
+  font-size: 32px;
+}
+
+header li:hover, header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*-------------------------------- Tablet screen Size -------------------- */
+@media screen and (min-width: 500px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  .header-logo .fa {
+    display: none;
+  }
+  .header-nav {
+    display: flex;
+    background-color: transparent;
+    border-top: none;
+  }
+  .header-nav li a {
+    margin-right: 20px;
+  }
+  .cards-container {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .cards-container h3 {
+    font-size: 30px;
+  }
+  .projects-container .more-btn {
+    font-size: 20px;
+    width: 180px;
+  }
+  .introduction h2 {
+    font-size: 32px;
+  }
+  header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+}
+/*------------------------------ laptop screen size ------------------------- */
+@media (min-width: 900px) {
+  .cards-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .card:last-child {
+    display: none;
+  }
+  .header-nav li a:link, .header-nav li a:visited {
+    font-size: 22px;
+    margin-right: 20px;
+  }
+}/*# sourceMappingURL=index.css.map */
