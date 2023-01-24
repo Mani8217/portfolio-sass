@@ -75,9 +75,9 @@ main .introduction{
 .projects-container{
     background-color: #23575B;
     padding:20px;
-    display: flex;
-    flex-direction: column;
-
+    display:flex;
+    flex-direction:column;
+    
  }
 
  .projects-container h3 {
@@ -105,6 +105,7 @@ main .introduction{
 
  .card{
     margin: 15px auto;
+    
  }
 
  .card .btn {
@@ -154,7 +155,7 @@ header li:hover, header a:hover {
 
 /*-------------------------------- Tablet screen Size -------------------- */
 
-  @media (min-width:500px) {
+  @media (min-width:600px) {
      header {
         display: flex;
         justify-content: space-between;
